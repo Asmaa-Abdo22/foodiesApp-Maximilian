@@ -39,6 +39,9 @@
 
 ---
 
+## Screenshots
+![Home Page](https://github.com/user-attachments/assets/247ff2bc-fa65-492a-9f11-496e631a6e07)
+
 ## Getting Started
 
 ### Prerequisites
