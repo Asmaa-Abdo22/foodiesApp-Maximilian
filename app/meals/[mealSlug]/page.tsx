@@ -45,7 +45,7 @@ const MealSlugPage = async ({
   const imageSrc =
     filename && imageMap[filename] ? imageMap[filename] : meal.image;
 
-  meal.instructions = meal.instructions.replace(/\n/g, "<br />");
+  const instructionsHtml = (meal.instructions ?? "").replace(/\n/g, "<br />");
 
   return (
     <div className="bg-[#1c1410] text-[#ddd6cb] min-h-screen rounded-xl shadow-xl">
@@ -82,7 +82,7 @@ const MealSlugPage = async ({
         <div
           className="prose prose-invert max-w-none"
           dangerouslySetInnerHTML={{
-            __html: meal.instructions,
+            __html: instructionsHtml,
           }}
         />
       </main>
