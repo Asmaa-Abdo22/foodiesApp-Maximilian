@@ -3,7 +3,6 @@
 **NextLevel Food** is a full-stack recipe-sharing web app where food lovers can discover, browse, and share meal recipes. It’s built with the Next.js App Router and TypeScript as a learning project (inspired by Maximilian Schwarzmüller’s Next.js course), and demonstrates modern patterns like server components, server actions, and local data persistence.
 
 ---
-
 ## What It Does
 
 - **Browse meals** — View a grid of community recipes with images, titles, summaries, and creator info. Each meal has a dedicated page with a clean URL (e.g. `/meals/wiener-schnitzel`).
